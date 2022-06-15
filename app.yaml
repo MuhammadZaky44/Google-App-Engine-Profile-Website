@@ -10,3 +10,8 @@ handlers:
 - url: /(.*)
   static_files: www/\1
   upload: www/(.*)
+
+#include css
+stylesheets: 
+  all:
+    - www/css/style.css
